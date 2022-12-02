@@ -1,0 +1,209 @@
+body {
+    background: #333;
+    color: #fff;
+    font-size: 22pt;
+    text-align: center;
+    font-family: "Teko";
+    letter-spacing: 0.15em;
+    font-family: 'Teko';
+}
+  
+  
+  .wrap {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+
+  @media only screen and (min-width: 280px) {
+    .wrap .slide{
+      width:275px;
+      height: 275px;
+    }
+    .wrap{
+      width:275px;
+      height:275px;
+    }
+    .window{
+      width:275px;
+    }
+    .headingg{
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 7;
+    }
+  }
+
+  @media only screen and (min-width: 300px) {
+    .wrap .slide{
+      width:290px;
+      height: 290px;
+    }
+    .wrap{
+      width:290px;
+      height:290px;
+    }
+    .window{
+      width:290px;
+    }
+  }
+
+  @media only screen and (min-width: 350px) {
+    .wrap .slide{
+      width:340px;
+      height: 340px;
+    }
+    .wrap{
+      width:340px;
+      height:340px;
+    }
+    .window{
+      width:340px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    .wrap .slide{
+      width:390px;
+      height: 390px;
+    }
+    .wrap{
+      width:390px;
+      height:390px;
+    }
+    .window{
+      width:390px;
+    }
+
+    .headingg{
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 10;
+    }
+  }
+
+
+  @media only screen and (min-width: 450px) {
+    .wrap .slide{
+      width:440px;
+      height: 440px;
+    }
+    .wrap{
+      width:440px;
+      height:440px;
+    }
+    .window{
+      width:440px;
+    }
+  }
+
+  @media only screen and (min-width: 500px) {
+    .wrap .slide{
+      width:490px;
+      height: 490px;
+    }
+    .wrap{
+      width:490px;
+      height:490px;
+    }
+    .window{
+      width:490px;
+    }
+  }
+
+  @media only screen and (min-width: 550px) {
+    .wrap .slide{
+      width:540px;
+      height: 540px;
+    }
+    .wrap{
+      width:540px;
+      height:540px;
+    }
+    .window{
+      width:540px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .wrap .slide{
+      width:550px;
+      height: 550px;
+    }
+    .wrap{
+      width:550px;
+      height:550px;
+    }
+    .window{
+      width:550px;
+    }
+  }
+
+
+  .window {
+    overflow: hidden;
+    position: relative;
+    background: #222;
+  }
+  
+  #carousel {
+    width: 20000px;
+    position: relative;
+    top: 0;
+    left: 0px;
+  }
+  
+  .slide {
+    height: 550px;
+    width: 550px;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .slide#b1 {
+    background-color: white;
+  }
+  
+  .slide#b2 {
+    background: white;
+  }
+  
+  .slide#b3 {
+    background: white;
+  }
+  
+  .slide#b4 {
+    background: white;
+  }
+  
+  .slide#b5 {
+    background: white;
+  }
+  .slide#b6 {
+    background: white;
+  }
+  
+  #prev, #next, #next2, #prev2 {
+    cursor: pointer;
+    position: absolute;
+    bottom: -40px;
+    font-size: 14pt;
+  }
+  
+  #prev, #prev2 {
+    left: 0;
+  }
+  
+  #next, #next2 {
+    right: 0;
+  }
+  
+  .transition {
+    transition: 0.7s;
+  }
